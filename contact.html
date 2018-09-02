@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/icon" href="src/logomini.ico" sizes="32x32" />
+  <title>IMS CONSULTING</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+
+<link href="estilos.css" rel="stylesheet">
+
+<link href="contact_style.css" rel="stylesheet">
+
+
+  <body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="src/logo.jpg" height="35" width="70"></a>
+            <a class="navbar-brand" href="index.html">IMS CONSULTING</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="acerca.html">ACERCA DE NOSOTROS</a></li>
+              <li><a href="proyectos.html">NUESTROS PROYECTOS</a></li>
+              <li><a href="contact.html">CONTACTO</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <div class="contact-title">
+      <h1> Envianos un mensaje</h1>
+  </div>
+
+  <div class="contact">
+    <form id="contact" method="post" action="contact_handler.php">
+      <input name="name" type="text" class="form-control" placeholder="Su Nombre" required>
+      
+      <input name="email" type="email" class="form-control" placeholder="Su Correo Electronico" required>
+      
+       
+          <textarea name="message" class="form-control" placeholder="Mensaje" row="4"
+          required></textarea>
+
+          <input type="submit" class="form-control submit" value="ENVIAR MENSAJE">
+
+          <br>
+          <br>
+          <br>
+          <br>
+          
+          
+
+
+
+    </form>
+  </div>
+
+  
+
+
+     
+ </body>
+
+ <footer class="pie"> 
+    <p> &copy;IMS CONSULTING 2018 - Desarrollado por Debug Systems </a></p>
+  </footer>
+</html>

@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(src/contacto.jpg);
+    background-size: cover;  
+    
+}
+
+.contact-title{
+    margin-top: 100px;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    align-content: center;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 19px;
+    margin-bottom: 16px;   
+    align-content: center; 
+}
+
+.contact{
+    display: inline-block;
+}
+
+contact .submit:hover{
+    background-color: darkgrey;
+    cursor: pointer;
+}
